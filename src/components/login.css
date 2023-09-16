@@ -1,0 +1,67 @@
+.bg-container {
+   background: rgb(33, 72, 192) url(../Assests/BG.png);
+   background-size: cover;
+   height: 100vh;
+}
+
+.form-logo {
+   width: 120px;
+   height: 98px;
+}
+
+.input {
+   background: none;
+   border: none;
+   outline: none;
+   margin-left: 15px;
+   color: #ffffff;
+}
+
+::placeholder {
+   color: #ffffff;
+   opacity: 0.7;
+}
+
+.input-card,
+.login-btn {
+   border: 1px solid #ffffff;
+   padding: 5px 10px;
+   margin-bottom: 15px;
+   border-radius: 3px;
+   display: flex;
+}
+
+.login-btn {
+   width: 100%;
+   margin: 20px 0px 0px;
+   justify-content: center;
+   align-items: center;
+   color: #2148C0;
+   font-weight: 500;
+}
+
+.form-container {
+   width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+   .form-container {
+      width: 80vw;
+   }
+}
+
+@media only screen and (min-width: 1281px) {
+   .form-container {
+      width: 25vw;
+   }
+
+   .input {
+      font-size: 1.1rem;
+   }
+}
+
+@media only screen and (min-width: 1801px) {
+   .input {
+      font-size: 1.3rem;
+   }
+}
